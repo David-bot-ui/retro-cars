@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200..900&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+.navbar_2 a{
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.84px;
+    text-decoration: none;
+     color: #3A3C35;
+}
+.nav_href_2{
+    display: flex;
+    gap: 30px;
+}
+.navbar_2 p{
+    font-family: Unbounded;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.84px;
+}
+.navbar_2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% ;
+}
+.navbar_2 h1{
+    font-family: Unbounded;
+font-size: 24px;
+font-weight: 500;
+line-height: 29.76px;
+}
+.about_services{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+padding: 5% ;
+align-items: center;}
+
+.h1_all{
+    font-family: Unbounded;
+font-size: 100px;
+font-weight: 500;
+line-height: 100px;
+ color:#3A3C35;
+ width: 45%;
+
+ }
+ .about_services button{
+    font-family: Unbounded;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.36px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 170px;
+    justify-content: center;
+    background-color: white;
+    border: 1px black solid;
+    text-align: center;
+    height: 50px;
+     padding: 15px;
+    white-space: nowrap;
+ }
+ .grid_cards{
+    width: 100%;
+      margin-top: 100px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr )
+      
+    }
+    .toyota_card{
+      background: url('./images/Rectangle\ 12.png') center center no-repeat;
+      width: 950px;
+      height: 500px;
+      padding: 3%;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      gap: 30px;
+    }
+      .rent_btn{
+          font-family: Unbounded;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 17.36px;
+          border-radius: 30px;
+          display: flex;
+          flex-direction: row;
+          padding: 15px ;
+          width: 160px;
+          gap: 10px;
+          justify-content: center;
+          background-color: white;
+          border: 1px white solid;
+          
+      }
+  .toyota_card_2{
+      background: url('./images/Rectangle\ 13.png') center center no-repeat;
+      width: 950px;
+      height: 500px;
+      padding:  3% ;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      gap: 30px;
+  }
+   .toyota_h2{
+      font-family: Unbounded;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19.84px;
+   color: #ffff;
+   }
+   .name_toyota{
+      font-family: Unbounded;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.76px;
+   color: #ffff;
+   }
+   .btn_miles{
+      font-family: Unbounded;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19.84px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  padding: 15px ;
+  width: 160px;
+  gap: 10px;
+  justify-content: center;
+  background-color: inherit;
+  color: white;
+  border: 1px white solid;
+  
+   }
+   .main_btn{
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+   }
+   .toyota_card_3{
+      background: url('./images/Rectangle\ 12\ \(1\).png') center center no-repeat;
+      width: 950px;
+      height: 500px;
+      padding:  3% ;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      gap: 30px;
+   }
+   .toyota_card_4{
+      background: url('./images/Rectangle\ 13\ \(1\).png') center center no-repeat;
+      width: 950px;
+      height: 500px;
+      padding:  3% ;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      gap: 30px;
+   }
+   .toyota_card_5{
+    background: url('./images/Rectangle\ 12\ \(2\).png') center center no-repeat;
+    width: 950px;
+    height: 500px;
+    padding:  3% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 30px;
+ }
+ .main_footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    align-items: center;
+    
+
+ }
+.title_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    padding: 3% 5%;
+}
+
+ .title_footer h1{
+    font-family: Unbounded;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.76px;
+ }
+ .title_footer h2{
+    font-family: Unbounded;
+font-size: 18px;
+font-weight: 300;
+line-height: 14px;
+ color: #3A3B35;
+ text-decoration: underline;
+ }
+ .title_footer h3{
+    font-family: Unbounded;
+font-size: 15px;
+font-weight: 300;
+line-height: 14px;
+color: #3A3B35;
+padding: 15% 0%;
+ }
+ .footer_ul{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: start;
+    height: 250px;
+    padding: 0% 10%;
+
+ }
+ .footer_ul ul{
+    list-style: none;
+    font-family: Unbounded;
+font-size: 16px;
+font-weight: 300;
+line-height: 19.84px;
+ color: #3A3C35;
+ display: flex;
+ flex-direction: column;
+ gap: 55px;
+
+ }
+ .footer_ul ol{
+    list-style: none;
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.84px;
+     color: #3A3C35;
+     gap: 55px;
+     display: flex;
+     flex-direction: column;
+ }
+ .header_col_2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: start;
+    height: 250px;
+    padding: 0% 10%;
+ }
+
+
+ 

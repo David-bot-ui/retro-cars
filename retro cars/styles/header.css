@@ -1,0 +1,46 @@
+.header{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+  justify-content:space-around;
+    flex-direction: column;
+    padding: 3%;
+    gap: 70px;
+
+ }
+ .header_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+ }
+ .header h1{
+    font-family: Unbounded;
+font-size: 124px;
+font-weight: 500;
+line-height: 136.4px;
+ color: #3A3C35;
+ }
+ .header_div h2{
+    font-family: Unbounded;
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+ width: 7%;
+ padding: 5px 0;
+ }
+  .header_div button{
+    font-family: Unbounded;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17.36px;
+     border-radius: 30px;
+     display: flex;
+     flex-direction: row;
+     padding: 15px ;
+     width: 160px;
+     gap: 10px;
+     justify-content: center;
+     background-color: white;
+    
+  }
